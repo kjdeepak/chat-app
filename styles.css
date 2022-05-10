@@ -259,8 +259,8 @@ body {
     }
 
     .right-container {
-        top: 22%;
-        left: 92vw;
+        top: 12%;
+        left: 82vw;
     }
 
     .content-container {
@@ -276,12 +276,14 @@ body {
 
     .main-text-container {
         margin-bottom: 0;
-        flex-basis: 34%;
+        flex-basis: 50%;
         text-align: left;
+        padding-left: 6%;
     }
 
     .main-text-container-description {
         padding-left: 0;
+        padding-right: 28%;
         line-height: 1.8;
     }
 }
@@ -289,11 +291,24 @@ body {
 @media screen and (min-width: 1200px) {
     .app-container {
         width: 22%;
+        margin-right: 6%;
     }
 }
 
 @media screen and (min-width: 1441px) {
+    .right-container {
+        left: 76vw;
+    }
+
     .app-container {
         width: 18%;
+    }
+
+    .main-text-container {
+        flex-basis: 54%;
+    }
+
+    .main-text-container-description {
+        padding-right: 38%;
     }
 }
