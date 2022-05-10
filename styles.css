@@ -290,3 +290,9 @@ body {
         width: 22%;
     }
 }
+
+@media screen and (min-width: 1441px) {
+    .app-container {
+        width: 18%;
+    }
+}
